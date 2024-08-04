@@ -31,8 +31,6 @@ h1 {
 }
 
 .form {
-  display : flex;
-  flex-direction: column;
   text-align: center;
   margin: 50px;
   
@@ -72,3 +70,9 @@ button {
   border: var(--white) solid 3px;
 }
 
+.output {
+  background-color: #111B3C;
+  padding : 20px;
+  border: var(--white) solid 3px;
+  color: var(--white);
+}
