@@ -55,16 +55,20 @@ label{
 }  
 
 
-input, button{
+input, button, .output{
     height: 50px;
     width: 100%;
     margin-top: 20px;
-    font-size: medium; 
+    font-size: large; 
     font-weight: bold;
 }
 
+input {
+  border: #111B3C solid 3px;
+}
 button {
   background-color:var(--navy);
   color: var(--white);
+  border: var(--white) solid 3px;
 }
 
