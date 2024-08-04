@@ -22,26 +22,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }  
 
-h1 {
-    text-align: center;
+h1 {    
     font-size: 2.3rem;
     margin: 20px 0;
 }
 
-.form {
-  text-align: center;
-  margin: 50px;
-  
-}
-
 fieldset {
     display: block;
-    flex-direction: column;
     padding: 50px;
-    align-items:center ;
-    max-width: 100%;
+    width: 100%;
     background-color: var(--orange);
     border: white solid 5px;
   }
@@ -52,11 +44,10 @@ label{
     color: #111B3C;
 }  
 
-
 input, button, .output{
     height: 50px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 25px;
     font-size: large; 
     font-weight: bold;
 }
@@ -64,6 +55,7 @@ input, button, .output{
 input {
   border: #111B3C solid 3px;
 }
+
 button {
   background-color:var(--navy);
   color: var(--white);
@@ -71,8 +63,8 @@ button {
 }
 
 .output {
+  height: 100px;
   background-color: #111B3C;
-  padding : 20px;
+  padding : 25px;
   border: var(--white) solid 3px;
-  color: var(--white);
 }
