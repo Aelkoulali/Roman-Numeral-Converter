@@ -7,16 +7,17 @@
 }
 
 :root {
-  --light-grey: #f5f6f7;
+  --white:white;
   --blue:#0080ff;
+  --navy:#111B3C;
   --orange:#ff7f00;
   }
 
 body {
     background-color: var(--blue);
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
-    color: var(--light-grey);
+    color: var(--white);
     padding: 0 15px;
     display: flex;
     flex-direction: column;
@@ -38,25 +39,32 @@ h1 {
 }
 
 fieldset {
-    display: flex;
+    display: block;
     flex-direction: column;
     padding: 50px;
     align-items:center ;
     max-width: 100%;
-    background-color: #ff7f00;
+    background-color: var(--orange);
+    border: white solid 5px;
   }
 
 label{
+    font-size: larger;
     font-weight: bold;
+    color: #111B3C;
 }  
+
 
 input, button{
     height: 50px;
     width: 100%;
     margin-top: 20px;
+    font-size: medium; 
+    font-weight: bold;
 }
 
 button {
-  background-color:#111B3C;
-  color: white;
+  background-color:var(--navy);
+  color: var(--white);
 }
+
