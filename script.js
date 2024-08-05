@@ -16,3 +16,10 @@ const numerals = [
     ["IX", 4],
     ["IX", 1]
   ];
+
+// Add keydown event to input
+input.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      convert.click();
+    }
+  });
