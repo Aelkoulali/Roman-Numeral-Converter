@@ -1,5 +1,6 @@
 # 🗂️ Roman Numeral Converter App
 ## ➡️ Key Concepts : 
+## ✅ JavaScript, HTML & CSS
 ### ✅ input event
 ### ✅ keydown event
 ### ✅ for loop
