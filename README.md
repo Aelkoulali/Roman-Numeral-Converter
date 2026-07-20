@@ -1,10 +1,20 @@
 # 🗂️ Roman Numeral Converter App
-## ➡️ Key Concepts : 
-## ✅ JavaScript, HTML & CSS
-### ✅ input event
-### ✅ keydown event
-### ✅ for loop
-### ✅ while loop
-## 📖 Destructuring assignment:
-### 🔗 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
 
+A Roman Numeral Converter built with HTML, CSS, and JavaScript. Users can enter a number and the app converts it to Roman numerals.
+
+## ✅ Key Features
+- Converts numbers to Roman numerals
+- Updates output on input (input event)
+- Also triggers conversion using keyboard actions (keydown event)
+- Uses loops (for / while) to build the Roman numeral string
+
+## 🧠 JavaScript Concepts Used
+- Destructuring assignment
+
+## 🛠️ Tech Stack
+- HTML
+- CSS
+- JavaScript
+
+## ▶️ How to Run
+Open `index.html` in your browser.
